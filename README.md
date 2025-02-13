@@ -1,51 +1,42 @@
-# Auto_dir_listing_script
-PHP script / index.php file that auto generates a directory where ever it is placed
+## What’s New in This Version
+
+Updates to improve:
+~ functionality
+~ cleaner code
+~ global script edits
+~ user experience
+
+- **HTML and CSS Validation:** 
+The project now uses completely validated XHTML and CSS, 
+ensuring better performance and standards compliance.
+
+- **Centralized Script Management:** `master-dir-ls.php` is now centralized, 
+making script updates instantaneous across all uses within the project.
+
+- **Responsive Design:** 
+Updated the layout and replaced all footer JPEGs with SVGs.
+Removed all fixed widths and dimensions, replaced with %, em or vw.
+
+- **New Script Inclusions:** 
+Added `services_stats.php` and `services_stats.sh` to enhance the functionality 
+and provide more detailed server statistics.
+
+### Installation/Usage
+To install the updated version:
+1. Copy the folder 'index' and the two php files: 
+  `index.php` and `services_stats.php` to your Document Root as before.
+2. Copy 'index.php' out to each level of your directories.
+   If you want a site to load at final target, Do not drop the index.php into the dir.
+  Very handy for when you have muliple levels of dev dirs in a site's root.
 
 
-# Auto Directory Generator (index.php)
-
-## Overview
-The Auto Directory Generator is a PHP script (`index.php`) paired with a support directory (`index`) that automatically generates a styled and customizable HTML file displaying a list of files and folders in any specified directory. This solution is ideal for creating dynamic directory listings with breadcrumb navigation and simple file/folder organization.
-
-## Structure
-The script relies on the following:
-
-1. **`index.php`**: The main script that handles the generation of the directory listing.
-2. **`index` Directory**: A folder containing assets and components required by `index.php`. It has the following subdirectories:
-   - **`/index/imgs`**: Contains images used in the generated output (e.g., icons, logos).
-   - **`/index/pg_prts`**: Contains reusable page parts, such as headers (`head.inc.html`) and footers (`ftr.inc.html`).
-   - **`/index/styles`**: Contains CSS stylesheets to define the appearance of the generated HTML.
-
-## Installation
-1. Copy the **`index`** directory to the document root of your server. Ensure it retains its structure and contents.
-2. Place the **`index.php`** file in any directory where you want to enable automatic directory listing.
-
-## Usage
-- After installation, navigate to the directory where `index.php` is located via your web browser.
-- The script will:
-  1. Display a breadcrumb navigation path for the current directory.
-  2. List all files and folders in the directory with clickable links.
-  3. Style the output using the assets and styles in the `/index` directory.
-
-### Example
-If you place the `index.php` file in `/var/www/html/projects`, visiting `http://yourdomain.com/projects` will generate a dynamic listing of all files and folders in the `projects` directory.
-
-## Customization
-1. **Styling**:
-   - Modify CSS files in `/index/styles` to change the look and feel of the directory listing.
-2. **Headers and Footers**:
-   - Edit the `head.inc.html` and `ftr.inc.html` files in `/index/pg_prts` to customize the header and footer sections.
-3. **Breadcrumb Appearance**:
-   - The breadcrumb navigation can be adjusted by modifying the relevant PHP code in `index.php`.
-
-## Notes
-- Ensure your web server has read permissions for the directories and files to be listed.
-- To prevent unwanted directories from being listed, you can use `.htaccess` or file permissions to restrict access.
-
-## Future Enhancements
-- Add support for additional customization options through a configuration file.
-- Include themes for easier style changes.
-
-## License
-This script is free to use and modify. Attribution is appreciated but not required.
-
+### Upcoming Enhancements
+~ Now that the final output is 100% valid html/CSS output
+   It would be nice 'bling bling' to have W3C, validation links
+     (maybe tricky on a local server?)
+     
+~ Open for further suggestions ? 
+  Get rid of the heavy weight bnr logo    
+   Theme switcher ? :)
+   
+   
