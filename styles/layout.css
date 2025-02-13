@@ -1,345 +1,205 @@
-body{
-background-color:#F7F7F7;
-margin:0;
-padding:0 0 32px 0;
-}
-#wrapper{
-width:720px;
-margin:0 auto;      	
-padding:0;
-}      	      	
+body {
+    font-size: 16px;
+    background-color: #F7F7F7;
+    margin: 0;
+    padding: 0 0 2em 0;
+    }
+    #wrapper{
+    width: 96%;
+    max-width: 45em;
+    margin:0 auto;
+    padding:0;
+    border:0.065em solid rgb(217, 220, 238);
+    }
+    #bnr_div {
+    height: 7em;
+    border: solid red 0.125em;
+    border-radius: 0.75em;
+    background-image: url("../imgs/bnr.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:0 auto;
+    padding:0;
+    }
+    
+    #brdcrmbs {
+    color: #080d5e;
+    font-size: 0.75em;
+    }
+    
+    #brdcrmbs ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+    }
+    
+    #brdcrmbs ul li {
+    display: inline-block;
+    margin: 0; 
+    padding: 0.5em;
+    }
+    
+    #brdcrmbs ul li a{
+    text-decoration: none;
+    color:#0000AE;
+    }
+    #brdcrmbs ul li a:hover{
+     text-decoration: underline;
+     color:#272a54;
+    }
+    
+    .directory-listing {
+        width:86%;
+        list-style-type: none;
+        padding: 0;
+        margin: 0.75em auto;
+    }
 
-#bnr_div{
-height:7em;      	
-border:solid red 2px;      	
-border-radius: 12px;
-background-image: url("../imgs/bnr.jpg");
-background-repeat:no-repeat;
-background-position:center;
-margin:0 auto;
-padding:0;
-}
-
-#brdcrmbs{
-color:#080d5e;
-font-size:12px;
-}
-
-#brdcrmbs ul{
-list-style: none;
-margin: 0; 
-padding: 0;
-}
-
-#brdcrmbs ul li{
-display:inline-block;
-margin: 0; 
-padding: 8px;
-}
-
-#brdcrmbs ul li a{
-text-decoration: none;
-color:#0000AE;
-}
-
-#brdcrmbs ul li a:hover{
- text-decoration: underline;
- color:#272a54;
-}
-
-.text1 a{
-width:260px;
-display:block;
-color:#0000AE;
-text-decoration:none;
-background-image: url("../imgs/folder_closed.png");
-background-repeat:no-repeat;
-background-position:12px 0;
-margin:0;
-padding:6px 0 2px 46px;
-border-style:solid;
-border-color:#F7F7F7 #F7F7F7  #E4E4E4 #EEEEEE;
-border-width:0 0 1px 1px;
-}
-.text1 a:hover{
-text-decoration:underline;
-color:#0000FD;
-background-image: url("../imgs/folder_open.png");body{
-background-color:#F7F7F7;
-margin:0;
-padding:0 0 32px 0;
-}
-#wrapper{
-width:720px;
-margin:0 auto;      	
-padding:0;
-}      	      	
-
-#bnr_div{
-height:7em;      	
-border:solid red 2px;      	
-border-radius: 12px;
-background-image: url("../imgs/bnr.jpg");
-background-repeat:no-repeat;
-background-position:center;
-margin:0 auto;
-padding:0;
-}
-
-#brdcrmbs{
-color:#080d5e;
-font-size:12px;
-}
-
-#brdcrmbs ul{
-list-style: none;
-margin: 0; 
-padding: 0;
-}
-
-#brdcrmbs ul li{
-display:inline-block;
-margin: 0; 
-padding: 8px;
-}
-
-#brdcrmbs ul li a{
-text-decoration: none;
-color:#0000AE;
-}
-
-#brdcrmbs ul li a:hover{
- text-decoration: underline;
- color:#272a54;
-}
-
-.text1 a{
-width:260px;
-display:block;
-color:#0000AE;
-text-decoration:none;
-background-image: url("../imgs/folder_closed.png");
-background-repeat:no-repeat;
-background-position:12px 0;
-margin:0;
-padding:6px 0 2px 46px;
-border-style:solid;
-border-color:#F7F7F7 #F7F7F7  #E4E4E4 #EEEEEE;
-border-width:0 0 1px 1px;
-}
-.text1 a:hover{
-text-decoration:underline;
-color:#0000FD;
-background-image: url("../imgs/folder_open.png");
-background-color: #eff1;     	
-background-position:8px 0;
-background-repeat:no-repeat;
-border-style:solid;
-border-color:#F7F7F7 #DFDFDF #DFDFDF  #DFDFDF;
-border-width:0 0 1px 1px;
-}
-
-.text2 a{
-width:260px;
-display:block;
-color:#0000AE;
-text-decoration:none;
-background-image: url("../imgs/file_closed.png");
-background-repeat:no-repeat;
-background-position:10px 0;
-margin:0;
-padding:6px 0 4px 48px;
-border-style:solid;
-border-color:#F7F7F7 #F7F7F7  #E4E4E4 #EEEEEE;
-border-width:0 0 1px 1px;
-}
-.text2 a:hover{
-text-decoration:underline;      	
-background-image: url("../imgs/file_open.png");
-background-color: #eff1f2;
-background-position:10px 0;
-background-repeat:no-repeat;
-color:#0000FD;
-border-style:solid;
-border-color:#F7F7F7 #DFDFDF #DFDFDF  #DFDFDF;
-border-width:0 0 1px 1px;
-}
-.text1 {font-family: Arial, Helvetica, sans-serif;font-size: 14px;color:#22254D;text-align : left;}
-.text2 {font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: blue;text-align : left;}
-
-#topnav{
-text-align:center;
-background-repeat:no-repeat;
-margin:8px;
-padding:0;
-}
-#topnav ul{
-list-style-type: none;
-font-family:georgia, sans serif;
-font-size: 16px;
-color:#6A7C91;
-margin:0 0 8px 0;
-padding:0;
-}
-#topnav li{
-display: inline;      	
-margin:0;
-padding:0;
-}
-#topnav ul li  a{
-color:#880000;
-text-decoration: none;
-margin:0;      	
-padding:0;
-}
-#topnav ul li  a:hover{
-text-decoration:underline;
-color:#0D40C6;
-}
-
-#form-wrap{
-width:540px;
-border:solid blue 1px;
-border-radius: 12px;
-margin:8px auto;
-padding:2px;
-}
-#form-body{      	
-margin:0 auto;
-padding:8px;
-}
-
-#footer{
-text-align:center;
-width:640px;
-margin:0 auto auto 22px;
-padding:0;
-}
-#footer p{
-color:#880000;
-font-size:14px;
-margin:2px auto auto 2px;
-padding:2px;
-}
-#apachelogo{
-height:43px;
-background-image: url("../imgs/apache_pb.gif");
-background-repeat:no-repeat; 
-background-position:center;
-margin:12px auto auto 12px;
-padding:0;
-}
-#ubuntulogo{
-height:94px;
-background-image: url("../imgs/ubuntu-logo-68aee6-01.png");
-background-repeat:no-repeat; 
-background-position:center;
-margin:12px auto auto 12px;
-padding:0;
-}
-background-color: #eff1;     	
-background-position:8px 0;
-background-repeat:no-repeat;
-border-style:solid;
-border-color:#F7F7F7 #DFDFDF #DFDFDF  #DFDFDF;
-border-width:0 0 1px 1px;
-}
-
-.text2 a{
-width:260px;
-display:block;
-color:#0000AE;
-text-decoration:none;
-background-image: url("../imgs/file_closed.png");
-background-repeat:no-repeat;
-background-position:10px 0;
-margin:0;
-padding:6px 0 4px 48px;
-border-style:solid;
-border-color:#F7F7F7 #F7F7F7  #E4E4E4 #EEEEEE;
-border-width:0 0 1px 1px;
-}
-.text2 a:hover{
-text-decoration:underline;      	
-background-image: url("../imgs/file_open.png");
-background-color: #eff1f2;
-background-position:10px 0;
-background-repeat:no-repeat;
-color:#0000FD;
-border-style:solid;
-border-color:#F7F7F7 #DFDFDF #DFDFDF  #DFDFDF;
-border-width:0 0 1px 1px;
-}
-.text1 {font-family: Arial, Helvetica, sans-serif;font-size: 14px;color:#22254D;text-align : left;}
-.text2 {font-family: Arial, Helvetica, sans-serif;font-size: 14px;color: blue;text-align : left;}
-
-#topnav{
-text-align:center;
-background-repeat:no-repeat;
-margin:8px;
-padding:0;
-}
-#topnav ul{
-list-style-type: none;
-font-family:georgia, sans serif;
-font-size: 16px;
-color:#6A7C91;
-margin:0 0 8px 0;
-padding:0;
-}
-#topnav li{
-display: inline;      	
-margin:0;
-padding:0;
-}
-#topnav ul li  a{
-color:#880000;
-text-decoration: none;
-margin:0;      	
-padding:0;
-}
-#topnav ul li  a:hover{
-text-decoration:underline;
-color:#0D40C6;
-}
-
-#form-wrap{
-width:540px;
-border:solid blue 1px;
-border-radius: 12px;
-margin:8px auto;
-padding:2px;
-}
-#form-body{      	
-margin:0 auto;
-padding:8px;
-}
-
-#footer{
-text-align:center;
-width:640px;
-margin:0 auto auto 22px;
-padding:0;
-}
-#footer p{
-color:#880000;
-font-size:14px;
-margin:2px auto auto 2px;
-padding:2px;
-}
-#apachelogo{
-height:43px;
-background-image: url("../imgs/apache_pb.gif");
-background-repeat:no-repeat; 
-background-position:center;
-margin:12px auto auto 12px;
-padding:0;
-}
-#ubuntulogo{
-height:94px;
-background-image: url("../imgs/ubuntu-logo-68aee6-01.png");
-background-repeat:no-repeat; 
-background-position:center;
-margin:12px auto auto 12px;
-padding:0;
-}
+    .text-common ul li {
+        padding: 0.375em 0 0.125em 2.875em; 
+    }
+      
+    .text-common a {
+        width: 260px;
+        display: block;
+        color: #0000AE;
+        text-decoration: none;
+        background-repeat: no-repeat;
+        background-position: 12px 0; 
+        margin: 0;
+        padding: 6px 0 4px 48px;  
+        border-style: dotted;
+        border-color: #F7F7F7 #F7F7F7 #aca7a7 #F7F7F7;
+        border-width: 0 0 0.065em 0.065em;
+    }
+    .text-common a:hover {
+        color: #12126b;
+        text-decoration: underline;
+    }  
+    
+    .text1 a {
+        background-image: url("../imgs/folder_closed.png"); 
+    }
+    
+    .text1 a:hover {
+        background-image: url("../imgs/folder_open.png");
+        background-color: #eff1f2;
+    }
+    
+    .text2 a {
+        background-image: url("../imgs/file_closed.png");  
+    }
+    
+    .text2 a:hover {
+        background-image: url("../imgs/file_open.png");
+        background-color: #eff1f2;
+    }
+    
+     
+    #topnav {
+        text-align: center;
+        background-repeat: no-repeat;
+        margin: 0.5em;
+        padding: 0;
+    }
+    
+    #topnav ul {
+        list-style-type: none;
+        font-family: Georgia, sans-serif; 
+        font-size: 0.9em;  
+        color: #6A7C91;
+        margin: 0 0 0.5em 0;  
+        padding: 0;
+    }
+    
+    #topnav li {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #topnav ul li a {
+        color: #880000;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+    }
+    #topnav ul li a:hover {
+        text-decoration: underline;
+        color: #0D40C6;
+    }
+    
+    #form-wrap {
+        width: 92%;
+        border: solid blue 0.0625em;
+        border-radius: 0.75em;
+        margin: 0.5em auto;
+        padding: 0.125em;
+    }
+    
+    #footer {
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    #footer p {
+        color: #880000;
+        font-size: 0.875em;
+        margin: 0.125em auto auto 0.125em;
+        padding: 0.125em;
+    }
+    
+    
+    #ubuntulogo {
+        height: 4.25em;
+        width: 80%;
+        background-image: url("../imgs/ubuntu-logo.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:45% auto;  
+        margin: 0.5vw auto;
+        padding: 0;
+    }
+    
+    #apachelogo {
+        height: 3.75em;
+        width: 80%;
+        background-image: url("../imgs/apache-logo.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 40% auto; 
+        margin: 0.5vw auto;
+        padding: 0;
+    }
+    
+    #logos-container {
+        width: 80%;
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin: 0.25vw auto; 
+        padding: 0;
+    }
+    
+    #mysqllogo, #phplogo {
+        flex: 1; 
+        height: 3.125em;
+        background-repeat: no-repeat;
+        padding: 0;
+    }
+    
+    #mysqllogo {
+        background-image: url("../imgs/mysql-logo.svg");
+        background-position: center right;
+        background-size: 30% auto;
+        margin-right: 0.75em; 
+    }
+    
+    #phplogo {
+        background-image: url("../imgs/php-logo.svg");
+        background-position: center left;
+        background-size: 35% auto; 
+    }
+    
+    
